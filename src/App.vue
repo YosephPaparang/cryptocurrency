@@ -1,9 +1,10 @@
 <template>
   <ion-app>
-    <ion-router-outlet />
+    <HomePage />
   </ion-app>
 </template>
 
 <script setup lang="ts">
-import { IonApp, IonRouterOutlet } from '@ionic/vue';
+import { IonApp } from '@ionic/vue';
+import HomePage from './views/HomePage.vue';
 </script>
